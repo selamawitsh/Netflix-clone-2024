@@ -1,0 +1,54 @@
+.footerContainer{
+    background-color: #111;
+	color: grey;
+    justify-content: center;
+    align-items: center;
+    
+}
+.innerContainer{
+    width: 60%;
+    margin:0 auto;
+
+}
+.icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    color: #fff;
+    gap:25px;
+}
+.footerLinkItems{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
+}
+.footerLinkItems ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+
+}
+.footerLinkItems ul li{
+    cursor: pointer;
+}
+
+.serviceCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width:16%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 12px;
+    margin-top:10px;
+    margin-left: 30px;
+
+}
+
