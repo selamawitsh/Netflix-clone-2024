@@ -1,7 +1,18 @@
 .bannerContents{
 
+    bottom: 32px;
+    left: 32px;
+    z-index: 1;
+    right: 0;
+    margin-left: 30px;
+    padding-top: 30px;
+
 }
 .bannerTitle{
+    color:white;
+    font-size: 3em;
+    font-weight: 600;
+    padding-bottom: 0.3ren;
     margin-bottom:0px;
     padding:28px 12px;
     color:white;
@@ -15,9 +26,9 @@
 .playButton{
     margin-right: 20px;
     padding: 7px 16px;
-    border: 2px solid white; /* Keeps the button's border white */
-    background-color: transparent; /* Transparent background */
-    color: white; /* White text */
+    border: 2px solid white; 
+    background-color: transparent; 
+    color: white;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -29,15 +40,15 @@
 }
 .myListButton{
     padding: 7px 16px;
-    border: 2px solid white; /* Keeps the button's border white */
-    background-color: transparent; /* Transparent background */
-    color: white; /* White text */
+    border: 2px solid white; 
+    background-color: transparent; 
+    color: white;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    
 }
+    
 .banner_description{
     color:white;
     font-size: 16px;
@@ -47,11 +58,10 @@
     max-width: 600px;
 }
 .fadeButtom{
-    content: "";
     position: relative;
     bottom: 0;
-    left: 0;
+    left:0;
     width: 100%;
-    height: 50px; /* Adjust the height of the fade effect */
-    background: linear-gradient(to bottom, rgba(0, 255, 255,0),black);
+    height: 30vh; 
+    background-image: linear-gradient(180deg,transparent, rgba(37, 37, 37,0.91),#111);
 }

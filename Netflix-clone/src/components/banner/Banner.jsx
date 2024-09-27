@@ -7,7 +7,7 @@ function Banner() {
         useEffect(()=>{
             (async () => {
                 try {
-                    const request= await axi.get(requests.RomanceMovie)
+                    const request= await axi.get(requests.ComedyMovies)
                     setMovie(request.data.results[
                         Math.floor(Math.random()*request.data.results.length)
                     ]);
